@@ -1,0 +1,301 @@
+.primary{
+    color: var(--primary-color) !important;
+}
+
+.accent{
+    color: var(--accent-color) !important;
+}
+
+.red{
+    color:var(--red) !important;
+}
+
+.pink{
+    color: var(--pink) !important;
+}
+
+.purple{
+    color: var(--purple) !important;
+}
+
+.deep-purple{
+    color: var(--deep-purple) !important;
+}
+
+.indigo{
+    color: var(--indigo) !important;
+}
+
+.blue{
+    color: var(--blue) !important;
+}
+
+.light-blue{
+    color: var(--light-blue) !important;
+}
+
+.cyan{
+    color: var(--cyan) !important;
+}
+
+.teal{
+    color: var(--teal) !important;
+}
+
+.green{
+    color: var(--green) !important;
+}
+
+
+.light-green{
+    color: var(--light--green) !important;
+}
+
+.lime{
+    color: var(--lime) !important;
+}
+
+.yellow{
+    color: var(--yellow) !important;
+}
+
+
+.amber{
+    color: var(--amber) !important;
+}
+
+.orange{
+    color: var(--orange) !important;
+}
+
+.deep-orange{
+    color: var(--deep-orange) !important;
+}
+
+.brown{
+    color: var(--brown) !important;
+}
+
+.grey{
+    color: var(--grey) !important;
+}
+
+.blue-grey{
+    color: var(--blue-grey) !important;
+}
+
+.black{
+    color: var(--black) !important;
+}
+
+.white{
+    color: var(--white) !important;
+}
+
+
+/* BACKGROUND COLORS */
+
+.bprimary{
+    background-color: var(--primary-color) !important;
+}
+
+.baccent{
+    background-color: var(--accent-color) !important;
+}
+
+.braised{
+  background-color: var(--divider-black) !important;
+  color: var(--primary-text-black) !important;
+}
+
+.bred{
+    background-color: var(--red) !important;
+}
+
+.bpink{
+    background-color: var(--pink) !important;
+}
+
+.bpurple{
+    background-color: var(--purple) !important;
+}
+
+.bdeep-purple{
+    background-color: var(--deep-purple) !important;
+}
+
+.bindigo{
+    background-color: var(--indigo) !important;
+}
+
+.bblue{
+    background-color: var(--blue) !important;
+    color: var(--primary-text-black) !important;
+}
+.blight-blue{
+    background-color: var(--light-blue) !important;
+    color: var(--primary-text-black) !important;
+}
+
+.bcyan{
+    background-color: var(--cyan) !important;
+    color: var(--primary-text-black) !important;
+}
+
+.bteal{
+    background-color: var(--teal) !important;
+}
+
+.bgreen{
+    background-color: var(--green) !important;
+    color: var(--primary-text-black) !important;
+}
+
+.blight-green{
+    background-color: var(--light-green) !important;
+    color: var(--primary-text-black) !important;
+}
+.blime{
+    background-color: var(--lime) !important;
+    color: var(--primary-text-black) !important;
+}
+
+.byellow{
+    background-color: var(--yellow) !important;
+    color: var(--primary-text-black) !important;
+}
+
+.bamber{
+    background-color: var(--amber) !important;
+    color: var(--primary-text-black) !important;
+}
+
+.borange{
+    background-color: var(--orange) !important;
+    color: var(--primary-text-black) !important;
+}
+
+.bdeep-orange{
+    background-color: var(--deep-orange) !important;
+    color: var(--primary-text-black) !important;
+}
+
+.bbrown{
+    background-color: var(--brown) !important;
+}
+
+.bgrey{
+    background-color: var(--grey) !important;
+    color: var(--primary-text-black) !important;
+}
+
+.bblue-grey{
+    background-color: var(--blue-grey) !important;
+}
+
+.bblack{
+    background-color: var(--black) !important;
+}
+
+.bwhite{
+    background-color: var(--white) !important;
+    color: var(--primary-text-black) !important;
+}
+
+
+/* HOVERS ONLY BUTTONS */
+.button.color.bprimary:hover{
+    background-color: var(--primary-color) !important;
+}
+
+.button.color.baccent:hover{
+    background-color: var(--accent-color) !important;
+}
+
+.button.color.braised:hover{
+    background-color: var(--divider-black) !important;
+}
+
+.button.color.bred:hover{
+    background-color: var(--red) !important;
+}
+
+.button.color.bpink:hover{
+    background-color: var(--pink) !important;
+}
+
+.button.color.bpurple:hover{
+    background-color: var(--purple) !important;
+}
+
+.button.color.bdeep-purple:hover{
+    background-color: var(--deep-purple) !important;
+}
+
+.button.color.bindigo:hover{
+    background-color: var(--indigo) !important;
+}
+
+.button.color.bblue:hover{
+    background-color: var(--blue) !important;
+}
+
+.button.color.blight-blue:hover{
+    background-color: var(--light-blue) !important;
+}
+
+.button.color.bcyan:hover{
+    background-color: var(--cyan) !important;
+}
+
+.button.color.bteal:hover{
+    background-color: var(--teal) !important;
+}
+
+.button.color.bgreen:hover{
+    background-color: var(--green) !important;
+}
+
+.button.color.blight-green:hover{
+    background-color: var(--light-green) !important;
+}
+
+.button.color.blime:hover{
+    background-color: var(--lime) !important;
+}
+
+.button.color.byellow:hover{
+    background-color: var(--yellow) !important;
+}
+
+.button.color.bamber:hover{
+    background-color: var(--amber) !important;
+}
+
+.button.color.borange:hover{
+    background-color: var(--orange) !important;
+}
+
+.button.color.bdeep-orange:hover{
+    background-color: var(--deep-orange) !important;
+}
+
+.button.color.bbrown:hover{
+    background-color: var(--brown) !important;
+}
+
+.button.color.bgrey:hover{
+    background-color: var(--grey) !important;
+}
+
+.button.color.bblue-grey:hover{
+    background-color: var(--blue-grey) !important;
+}
+
+.button.color.bblack:hover{
+    background-color: var(--black) !important;
+}
+
+.button.color.bwhite:hover{
+    background-color: var(--white) !important;
+}

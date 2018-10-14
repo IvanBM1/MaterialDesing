@@ -1,0 +1,25 @@
+.dialog .card .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dialog .card .body .icon{
+      font-size: var(--icon-xl);
+      margin: 16px;
+  }
+  
+  .dialog .card .body .info .message {
+      font-size: var(--text);
+      font-weight: bold;
+      color: var(--primary-text-black);
+      text-align: justify;
+      margin: 16px 16px 8px 0;
+  }
+  
+  .dialog .card .body .info .submessage {
+    font-size: var(--reference);
+    color: var(--secondary-text-black);
+    text-align: justify;
+    margin: 0 16px 8px 0;
+  }

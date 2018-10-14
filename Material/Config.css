@@ -1,0 +1,18 @@
+:root{
+    --primary-300: #7986CB;
+    --primary-500: #3F51B5;
+    --primary-700: #303F9F;
+
+    --accent-A100: #FF9E80;
+    --accent-A200: #FF6E40;
+    --accent-A400: #FF3D00;
+    
+    /* DEFINICION DE COLORES  */
+    --primary-color:        var(--primary-500);
+    --primary-color-dark:   var(--primary-700);
+    --primary-color-ligth:  var(--primary-300);
+
+    --accent-color:         var(--accent-A200);
+    --accent-color-dark:    var(--accent-A400);
+    --accent-color-ligth:   var(--accent-A100);
+}

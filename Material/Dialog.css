@@ -1,0 +1,74 @@
+.dialog {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(10, 10, 10, 0);
+  width: 100vw;
+  height: 100vh;
+  z-index: -10;
+
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: all 1s;
+  transition-timing-function: var(--sharp-curve);
+}
+
+.dialog .card {
+  background-color: var(--light-theme-cards-dialogs);
+  width: 40vw;
+  border-radius: 2px;
+  margin: auto;
+  margin-top: -40vh;
+  box-shadow: var(--shadow-3);
+
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: all 1s;
+  transition-timing-function: var(--sharp-curve);
+}
+
+.dialog .card .heading {
+  background-color: var(--primary-color);
+  border-radius: 2px 2px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 4px 2px 15px;
+}
+
+.dialog .card .heading .title {
+  font-size: var(--title);
+  color: var(--primary-text-white);
+}
+
+
+.dialog .card .footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px;
+}
+
+.dialog .card .footer .cancel{
+    margin-right: 8px;
+}
+
+.dialog.show{
+  background: rgba(10, 10, 10, 0.24);
+}
+
+.dialog.hidden{
+  background: rgba(10, 10, 10,0);
+}
+
+.dialog .card.show{
+  margin-top: 20vh;
+}
+
+.dialog .card.hidden{
+  margin-top: -40vh;
+}

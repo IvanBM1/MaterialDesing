@@ -1,0 +1,133 @@
+/* MENU  */
+.base{
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+.menu{
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.menu .align{
+    display: flex;
+}
+
+/* RIGHT */
+.menu.expand-right{
+    transition: all 750ms;
+    transition-timing-function: var(--standard-curve);
+    width: 130px;
+    height: 130px;
+    border-radius: 2px;
+    background-color: var(--primary-color);
+    color: var(--text-icons);
+}
+
+.menu.expand-right .align{
+    justify-content: flex-start;
+}
+
+.menu.contract-right{
+    transition: all 750ms;
+    transition-timing-function: var(--standard-curve);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: none;
+    justify-content: flex-end;
+}
+
+/* LEFT */
+
+.menu.expand-left{
+    transition: all 750ms;
+    transition-timing-function: var(--standard-curve);
+    width: 130px;
+    height: 130px;
+    right: 0;
+    border-radius: 2px;
+    background-color: var(--primary-color);
+    color: var(--text-icons);
+
+    flex-direction: column-reverse;
+}
+
+.menu.expand-left .align{
+    justify-content: flex-end;
+}
+
+.menu.contract-left{
+    transition: all 750ms;
+    transition-timing-function: var(--standard-curve);
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: none;
+}
+
+.menu.contract-left .align{
+    justify-content: flex-end;
+}
+
+.menu .icon.more{
+    cursor: pointer;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: var(--dark-icon-active);
+}
+
+.menu .icon.more.white{
+    color: var(--text-icons);
+}
+
+.menu .icon.more:hover{
+    color: var(--primary-text-black);
+    background-color: var(--divider-black);
+}
+
+.menu .icon.more.white:hover{
+    color: var(--primary-text-white);
+    background-color: var(--divider-white);
+}
+
+
+.menu.expand-right .icon.more,
+.menu.expand-left .icon.more{
+    color: var(--text-icons) !important;
+}
+
+.menu.expand-right .icon.more:hover,
+.menu.expand-left .icon.more:hover{
+    color: var(--primary-text-white);
+    background-color: var(--divider-white);
+}
+
+.menu .icon.option{
+    display: flex;
+    height: 30px;
+    padding: 0 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    align-items: center;
+    color: var(--text-icons);
+}
+
+.menu .icon.option:hover{
+    background-color: var(--primary-color-dark);
+}
+
+.menu .icon.option span{
+    margin-left: 5px;
+}

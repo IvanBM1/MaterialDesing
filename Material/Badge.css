@@ -1,0 +1,29 @@
+.badged{
+    position: relative;
+}
+ 
+.badged span{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.badged span{
+    position: absolute;
+    font-size: 12px;
+    top: -5px;
+    right: -5px;
+    background: var(--primary-text-black);
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: white;
+}
+
+.button.badged span{
+    width: 20px;
+    height: 20px;
+}

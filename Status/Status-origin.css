@@ -1,0 +1,47 @@
+.back{
+    height: 30px;
+    width: 110px;
+    background-color: var(--divider-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.back .icon{
+    margin: 0 5px;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+}
+
+.back .icon.active{
+    transition: all 1s;
+    transition-timing-function: var(--standard-curve);
+    background-color: var(--indigo-500);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    color: var(--text-icons);
+    margin: 0;
+}
+
+.back .icon.deactivated{
+    transition: all 1s;
+    transition-timing-function: var(--standard-curve);
+    width: 24px;
+    height: 24px;
+    border-radius: 0;
+    color: black;
+    margin: 0 5px;
+    background-color: none;
+}

@@ -1,0 +1,183 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--shadow-2);
+    position: relative;
+
+    width: 400px;
+    border-radius: 2px;
+    margin: 16px;
+}
+
+.card .avatar{
+    display: flex;
+    padding: 16px;
+    align-items: center;
+}
+
+.card .avatar .boximg{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-right: 16px;
+}
+
+.card .avatar img{
+    width: 100%;
+}
+
+.card .avatar .box{
+    display: flex;
+    flex-direction: column;
+}
+
+.card .avatar .box .title{
+    font-size: 16px;
+    color: var(--primary-text-black);
+    font-weight: 600;
+}
+
+.card .avatar .box .subtitle{
+    font-size: 15px;
+    color: var(--divider-black-active);
+    font-weight: 600;
+}
+
+.card .media{
+    overflow: hidden;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    display: grid;
+}
+
+.card .media img{
+    width: 100%;
+    margin: auto;
+    border-radius: 2px 2px 0 0;
+}
+
+.card .boxtitle{
+    padding: 24px 16px 16px 16px;
+}
+
+.card .boxtitle .title{
+    font-size: 24px;
+    padding-bottom: 12px;
+}
+
+.card .boxtitle .subtitle{
+    font-size: 14px;
+}
+
+.card .supporting{
+    padding: 16px;
+    font-size: 14px;
+}
+
+.card .actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.card .actions .icon{
+    font-size: var(--icon-sm);
+}
+
+.card .actions .left{
+    display: flex;
+}
+
+.card .actions .left .button,
+.card .actions .left .button-icon{
+    margin-left: 8px;
+}
+
+.card .actions .right .button,
+.card .actions .right .button-icon{
+    margin-right: 8px;
+}
+
+.card .actions .right{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.card .above{
+    position: absolute;
+    bottom: 0;
+    background: var(--divider-black);
+    width: 100%;
+}
+
+.card .above *{
+    color: var(--primary-text-white);
+}
+
+.card .vertical{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.card .vertical .media{
+    width: 80px;
+    height: 80px;
+}
+
+.card .vertical .media.large{
+    width: 160px;
+    height: 160px;
+}
+
+.card .vertical .media.xlarge{
+    width: 100%;
+    height: 100%;
+}
+
+.card .vertical .media img{
+    width: 100%;
+}
+
+.card .vertical .boxtitle{
+    padding: 0;
+}
+
+.card .vertical .actions{
+    flex-direction: column;
+    align-self: stretch;
+}
+
+.card .vertical .actions .left{
+    flex-direction: column;
+}
+
+.card .vertical .actions .right{
+    flex-direction: column;
+}
+
+.card .vertical .actions .left .icon{
+    margin-bottom: 16px;
+}
+
+.card .vertical .actions .right .icon{
+    margin-top: 16px;
+}
+
+.card .vertical .actions .left .button,
+.card .vertical .actions .left .button-icon{
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.card .vertical .actions .right .button,
+.card .vertical .actions .right .button-icon{
+    margin: 0;
+    margin-top: 8px;
+}
